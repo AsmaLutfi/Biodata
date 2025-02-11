@@ -20,19 +20,5 @@
         <p><strong>No. HP:</strong> 082187937743</p>
         <button onclick="showPage(2)">Lanjut ke Halaman 2</button>
     </div>
-
-    <div class="container hidden" id="page2">
-        <h2>Halaman 2: Pendidikan & Keterampilan</h2>
-        <p><strong>Pendidikan:</strong> S1 Sistem Informasi, Universitas Tadulako</p>
-        <button onclick="showPage(1)">Kembali ke Halaman 1</button>
-    </div>
-
-    <script>
-        function showPage(page) {
-            document.getElementById('page1').classList.add('hidden');
-            document.getElementById('page2').classList.add('hidden');
-            document.getElementById('page' + page).classList.remove('hidden');
-        }
-    </script>
 </body>
 </html>
